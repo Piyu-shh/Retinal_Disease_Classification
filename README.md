@@ -1,4 +1,4 @@
-# EyeDiseasePred — Retinal Disease Classification System
+# Retinal Disease Classification System
 
 An AI-powered clinical decision-support system for automated detection of retinal diseases using deep learning, ensemble learning, and an interactive UI with LLM-based medical guidance.
 
@@ -69,7 +69,7 @@ Key insights:
 
 ---
 
-## 🧩 Ensemble Detection Approach
+## Ensemble Detection Approach
 
 Each test image is processed as follows:
 
@@ -133,7 +133,7 @@ The user provides:
 
 ---
 
-### 🔍 Prediction Workflow
+### Prediction Workflow
 
 The UI:
 
@@ -189,7 +189,7 @@ All plots and detailed outputs are available in:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - TensorFlow / Keras
