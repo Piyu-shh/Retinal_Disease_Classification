@@ -1,0 +1,12 @@
+# Model files
+*.h5
+*.pt
+*.pth
+
+# Dataset
+dataset/
+data/
+
+# Cache
+__pycache__/
+.ipynb_checkpoints/

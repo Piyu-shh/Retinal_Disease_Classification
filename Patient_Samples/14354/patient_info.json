@@ -1,0 +1,65 @@
+{
+  "Patient_ID": "14354",
+  "Predictions": [
+    {
+      "image": "14354_left.jpg",
+      "label": "Glaucoma",
+      "confidence": [
+        86.05829620361328,
+        13.820388793945312
+      ]
+    },
+    {
+      "image": "14354_right.jpg",
+      "label": "Glaucoma",
+      "confidence": [
+        92.66999816894531,
+        7.266427040100098
+      ]
+    }
+  ],
+  "Questionnaire": {
+    "Demographics": {
+      "Age": "35",
+      "Gender": "Female",
+      "Occupation": "Software Engineer"
+    },
+    "Medical History": {
+      "Has diabetes?": "No",
+      "Has hypertension?": "No",
+      "Has heart disease?": "No",
+      "Has thyroid disorder?": "No",
+      "Has migraine issues?": "No",
+      "High cholesterol?": "No",
+      "Autoimmune disease (e.g. lupus, rheumatoid arthritis)?": "No",
+      "History of eye trauma?": "No"
+    },
+    "Ocular History": {
+      "Previous eye surgery?": "No",
+      "Family history of glaucoma?": "No",
+      "Family history of cataract?": "No",
+      "Recent eye infection?": "No",
+      "Do you use glasses or contact lenses?": "No",
+      "Dry or itchy eyes?": "No",
+      "Double vision?": "No",
+      "Floaters or flashes of light?": "No",
+      "Blurred or cloudy vision?": "Yes",
+      "Difficulty seeing at night?": "Yes"
+    },
+    "Lifestyle": {
+      "Smoking habit?": "No",
+      "Alcohol consumption?": "No",
+      "Regular steroid medication use?": "No",
+      "Average screen time (hours/day)": "13",
+      "Average outdoor exposure (hours/day)": "2",
+      "Use of sunglasses/UV protection outdoors?": "No"
+    },
+    "General Wellbeing": {
+      "Diet quality": "Balanced",
+      "Exercise frequency": "Occasionally",
+      "Sleep quality": "Average",
+      "Stress level": "Moderate"
+    }
+  },
+  "AI_Advice": "Error fetching medical advice: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001CC3607CFD0>: Failed to resolve 'openrouter.ai' ([Errno 11001] getaddrinfo failed)\"))"
+}

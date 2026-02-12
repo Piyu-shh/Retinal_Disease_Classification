@@ -1,0 +1,65 @@
+{
+  "Patient_ID": "23432",
+  "Predictions": [
+    {
+      "image": "23432_left.jpg",
+      "label": "Normal",
+      "confidence": [
+        2.3194258213043213,
+        96.038330078125
+      ]
+    },
+    {
+      "image": "23432_right.jpg",
+      "label": "Normal",
+      "confidence": [
+        2.393556833267212,
+        96.50165557861328
+      ]
+    }
+  ],
+  "Questionnaire": {
+    "Demographics": {
+      "Age": "25",
+      "Gender": "Male",
+      "Occupation": "Software Engineer"
+    },
+    "Medical History": {
+      "Has diabetes?": "Yes",
+      "Has hypertension?": "Yes",
+      "Has heart disease?": "Yes",
+      "Has thyroid disorder?": "No",
+      "Has migraine issues?": "No",
+      "High cholesterol?": "Yes",
+      "Autoimmune disease (e.g. lupus, rheumatoid arthritis)?": "No",
+      "History of eye trauma?": "No"
+    },
+    "Ocular History": {
+      "Previous eye surgery?": "No",
+      "Family history of glaucoma?": "No",
+      "Family history of cataract?": "No",
+      "Recent eye infection?": "No",
+      "Do you use glasses or contact lenses?": "Yes",
+      "Dry or itchy eyes?": "Yes",
+      "Double vision?": "No",
+      "Floaters or flashes of light?": "No",
+      "Blurred or cloudy vision?": "No",
+      "Difficulty seeing at night?": "Yes"
+    },
+    "Lifestyle": {
+      "Smoking habit?": "Yes",
+      "Alcohol consumption?": "Yes",
+      "Regular steroid medication use?": "No",
+      "Average screen time (hours/day)": "20",
+      "Average outdoor exposure (hours/day)": "1",
+      "Use of sunglasses/UV protection outdoors?": "No"
+    },
+    "General Wellbeing": {
+      "Diet quality": "Irregular",
+      "Exercise frequency": "Rarely",
+      "Sleep quality": "Poor",
+      "Stress level": "High"
+    }
+  },
+  "AI_Advice": "\n\nBased on the provided information, here is the assessment:\n\n**Likely Eye Health:**\n*   Current retinal/imaging findings (from provided photos) show **no abnormalities** (Normal label with high confidence).\n*   Reports **dry eyes**, **difficulty seeing at night**, and **use of corrective lenses**.\n*   **No signs of infection, trauma, glaucoma risk (no family history), or cataracts risk (no family history)** currently noted.\n\n**Possible Disease Progression Risks:**\n*   **Significantly increased risk for Diabetic Retinopathy:** Due to early-onset diabetes and young age.\n*   **Increased risk for Glaucoma:** Due to presence of diabetes, hypertension, and heart disease.\n*   **Increased risk for Cataracts:** Primarily due to diabetes and hypertension.\n*   **Exacerbation of Dry Eyes & Night Blindness:** Due to lifestyle factors (high screen time, smoking, poor sleep).\n*   **General vascular eye problems:** Due to combined diabetes, hypertension, heart disease, high cholesterol, and smoking.\n\n**Lifestyle & General Recommendations:**\n*   **Prioritize Medical Management:**\n    *   Strict control of blood sugar (diabetes), blood pressure (hypertension), cholesterol, and overall heart health. Regular check-ups with physician are crucial.\n    *   Schedule regular dilated eye exams with an ophthalmologist **specifically for diabetic eye screening**, regardless of current symptoms.\n*   **Protect Eyes from Damage:**\n    *   **Always wear sunglasses** with 100% UV protection outdoors.\n    *   Implement the **20-20-20 rule** during screen time (every 20 mins, look at something 20 feet away for 20 secs).\n    *   Ensure adequate ambient lighting while using screens.\n*   **Smoking Cessation:** Quitting is critical to reduce multiple risks (diabetes complications, eye disease, heart disease).\n*   **Improve Overall Habits:**\n    *   **Reduce screen time** as much as possible and prioritize breaks.\n    *   **Improve diet:** Aim for regular, balanced meals rich in fruits, vegetables, and whole grains.\n    *   **Increase physical activity:** Aim for regular exercise (even moderate walking), starting gradually.\n    *   **Improve sleep hygiene:** Aim for consistent, quality sleep (7-9 hours).\n    *   **Manage stress:** Utilize techniques like deep breathing, meditation, or hobbies.\n*   **Manage Dry Eyes:**\n    *   Use preservative-free artificial tears lubricating eye drops as needed.\n    *   Discuss persistent dry eye symptoms with your doctor/pharmacist."
+}

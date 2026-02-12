@@ -1,0 +1,65 @@
+{
+  "Patient_ID": "00450",
+  "Predictions": [
+    {
+      "image": "00450_left.jpg",
+      "label": "Normal",
+      "confidence": [
+        2.6388604640960693,
+        96.66756439208984
+      ]
+    },
+    {
+      "image": "00450_right.jpg",
+      "label": "Normal",
+      "confidence": [
+        2.081368923187256,
+        97.5250244140625
+      ]
+    }
+  ],
+  "Questionnaire": {
+    "Demographics": {
+      "Age": "35",
+      "Gender": "Male",
+      "Occupation": "Software Engineer"
+    },
+    "Medical History": {
+      "Has diabetes?": "No",
+      "Has hypertension?": "No",
+      "Has heart disease?": "No",
+      "Has thyroid disorder?": "No",
+      "Has migraine issues?": "No",
+      "High cholesterol?": "No",
+      "Autoimmune disease (e.g. lupus, rheumatoid arthritis)?": "No",
+      "History of eye trauma?": "No"
+    },
+    "Ocular History": {
+      "Previous eye surgery?": "No",
+      "Family history of glaucoma?": "No",
+      "Family history of cataract?": "Yes",
+      "Recent eye infection?": "Yes",
+      "Do you use glasses or contact lenses?": "No",
+      "Dry or itchy eyes?": "No",
+      "Double vision?": "Yes",
+      "Floaters or flashes of light?": "No",
+      "Blurred or cloudy vision?": "No",
+      "Difficulty seeing at night?": "No"
+    },
+    "Lifestyle": {
+      "Smoking habit?": "No",
+      "Alcohol consumption?": "No",
+      "Regular steroid medication use?": "No",
+      "Average screen time (hours/day)": "15",
+      "Average outdoor exposure (hours/day)": "1",
+      "Use of sunglasses/UV protection outdoors?": "No"
+    },
+    "General Wellbeing": {
+      "Diet quality": "Balanced",
+      "Exercise frequency": "Occasionally",
+      "Sleep quality": "Average",
+      "Stress level": "Moderate"
+    }
+  },
+  "AI_Advice": "\n\nBased on the provided information:\n\n**Likely Eye Health:**\n*   Basic retinal images (splitter scans) show **no signs of pathology** at this time (Normal label for both eyes).\n*   Reports **double vision (diplopia)** which is a significant symptom requiring further evaluation.\n*   Recurrence of **recent eye infection**.\n*   **Yes** to floaters/ flashes, night blindness, blurry vision - documented as **No**.\n*   Adequate diet reported.\n\n**Possible Disease Progression Risks:**\n1.  **Digital Eye Strain:** Extremely high screen time (15 hrs/day) significantly increases risk for dry eyes, fatigue, and discomfort.\n2.  **Myopia Progression:** High near-work exposure without protective measures may contribute to worsening nearsightedness.\n3.  **Cataract:** Family history of cataract increases his lifetime risk.\n4.  **Dry Eye Disease:** High screen time combined with double vision and possible minor unresolved infection/inflammation are risk factors.\n5.  **Undiagnosed Cause of Double Vision:** Critical risk requiring medical assessment (could indicate neurological, muscular, or cranial nerve issues).\n\n**Recommendations (General):**\n*   **Address Double Vision:** Schedule a comprehensive eye exam *promptly* to investigate the cause of diplopia.\n*   **Manage Screen Time:**\n    *   Implement the 20-20-20 rule (every 20 mins, look at something 20 feet away for 20 seconds).\n    *   Adjust screen brightness/contrast; ensure ergonomic setup.\n    *   Use artificial tears for dry eyes if needed.\n*   **UV Protection:** **Mandatory:** Wear high-quality sunglasses blocking 100% UVA/B whenever outdoors, even briefly.\n*   **Increase Outdoor Time:** Aim for at least 30-60 minutes of natural daylight exposure per day (protect eyes with sunglasses).\n*   **Exercise Regularly:** Aim for at least 150 minutes of moderate-intensity exercise per week to improve overall circulation and vascular health.\n*   **Stress Management:** Practice techniques like deep breathing, meditation, or hobbies to reduce stress levels.\n*   **Follow Up Infection:** Complete any prescribed course for recent infection and report persistent symptoms.\n*   **Cataract Awareness:** Discuss monitoring for symptoms (cloudy vision, glare sensitivity) at routine check-ups due to family history."
+}

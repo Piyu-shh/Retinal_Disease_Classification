@@ -1,0 +1,64 @@
+{
+  "Patient_ID": "03314",
+  "Predictions": [
+    {
+      "image": "03314_left.jpg",
+      "label": "Normal",
+      "confidence": [
+        8.963396072387695,
+        85.7807846069336
+      ]
+    },
+    {
+      "image": "03314_right.jpg",
+      "label": "Normal",
+      "confidence": [
+        1.8799617290496826,
+        96.3482666015625
+      ]
+    }
+  ],
+  "Questionnaire": {
+    "Demographics": {
+      "Age": "23",
+      "Gender": "Male",
+      "Occupation": "Fire Fighter"
+    },
+    "Medical History": {
+      "Has diabetes?": "No",
+      "Has hypertension?": "No",
+      "Has heart disease?": "No",
+      "Has thyroid disorder?": "No",
+      "Has migraine issues?": "No",
+      "High cholesterol?": "No",
+      "Autoimmune disease (e.g. lupus, rheumatoid arthritis)?": "No",
+      "History of eye trauma?": "Yes"
+    },
+    "Ocular History": {
+      "Previous eye surgery?": "Yes",
+      "Family history of glaucoma?": "No",
+      "Family history of cataract?": "No",
+      "Recent eye infection?": "No",
+      "Do you use glasses or contact lenses?": "No",
+      "Dry or itchy eyes?": "Yes",
+      "Double vision?": "No",
+      "Floaters or flashes of light?": "No",
+      "Blurred or cloudy vision?": "No",
+      "Difficulty seeing at night?": "No"
+    },
+    "Lifestyle": {
+      "Smoking habit?": "Yes",
+      "Alcohol consumption?": "No",
+      "Regular steroid medication use?": "No",
+      "Average screen time (hours/day)": "5",
+      "Average outdoor exposure (hours/day)": "9",
+      "Use of sunglasses/UV protection outdoors?": "No"
+    },
+    "General Wellbeing": {
+      "Diet quality": "Balanced",
+      "Exercise frequency": "Daily",
+      "Sleep quality": "Good",
+      "Stress level": "High"
+    }
+  }
+}

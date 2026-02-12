@@ -1,0 +1,65 @@
+{
+  "Patient_ID": "20045",
+  "Predictions": [
+    {
+      "image": "20045_left.jpg",
+      "label": "Normal",
+      "confidence": [
+        35.17235565185547,
+        64.34919738769531
+      ]
+    },
+    {
+      "image": "20045_right.jpg",
+      "label": "Normal",
+      "confidence": [
+        8.991911888122559,
+        90.20382690429688
+      ]
+    }
+  ],
+  "Questionnaire": {
+    "Demographics": {
+      "Age": "25",
+      "Gender": "Male",
+      "Occupation": "Teacher"
+    },
+    "Medical History": {
+      "Has diabetes?": "No",
+      "Has hypertension?": "No",
+      "Has heart disease?": "No",
+      "Has thyroid disorder?": "No",
+      "Has migraine issues?": "Yes",
+      "High cholesterol?": "No",
+      "Autoimmune disease (e.g. lupus, rheumatoid arthritis)?": "No",
+      "History of eye trauma?": "Yes"
+    },
+    "Ocular History": {
+      "Previous eye surgery?": "Yes",
+      "Family history of glaucoma?": "No",
+      "Family history of cataract?": "No",
+      "Recent eye infection?": "No",
+      "Do you use glasses or contact lenses?": "Yes",
+      "Dry or itchy eyes?": "Yes",
+      "Double vision?": "No",
+      "Floaters or flashes of light?": "No",
+      "Blurred or cloudy vision?": "No",
+      "Difficulty seeing at night?": "No"
+    },
+    "Lifestyle": {
+      "Smoking habit?": "No",
+      "Alcohol consumption?": "No",
+      "Regular steroid medication use?": "No",
+      "Average screen time (hours/day)": "6",
+      "Average outdoor exposure (hours/day)": "7",
+      "Use of sunglasses/UV protection outdoors?": "Yes"
+    },
+    "General Wellbeing": {
+      "Diet quality": "Balanced",
+      "Exercise frequency": "Occasionally",
+      "Sleep quality": "Average",
+      "Stress level": "Moderate"
+    }
+  },
+  "AI_Advice": "Error fetching medical advice: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions"
+}
