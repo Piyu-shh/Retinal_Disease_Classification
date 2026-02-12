@@ -90,7 +90,7 @@ Two ensemble modes implemented:
 
 ---
 
-## 📊 Per-Class F1 Scores (Ensemble Weights)
+## Per-Class F1 Scores (Ensemble Weights)
 
 | Class | VGG16 | ResNet50 | EfficientNet |
 |------|--------|------------|----------------|
