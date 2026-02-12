@@ -1,27 +1,27 @@
-# 🧠 EyeDiseasePred — Retinal Disease Classification System
+# EyeDiseasePred — Retinal Disease Classification System
 
 An AI-powered clinical decision-support system for automated detection of retinal diseases using deep learning, ensemble learning, and an interactive UI with LLM-based medical guidance.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Retinal diseases such as **Glaucoma, Cataract, and Diabetic Retinopathy** are leading causes of vision loss worldwide. Early diagnosis is critical but traditional methods rely on manual inspection, which can be slow, subjective, and resource-intensive.
 
 **EyeDiseasePred** provides an end-to-end AI pipeline that:
 
 - Classifies retinal fundus images into 4 categories:
-  - 🟢 Normal  
-  - 🔴 Glaucoma  
-  - 🟡 Cataract  
-  - 🟠 Diabetic Retinopathy  
+  - Normal  
+  - Glaucoma  
+  - Cataract  
+  - Diabetic Retinopathy  
 - Uses multiple deep learning CNN models
 - Combines predictions via F1-weighted ensemble voting
 - Includes a clinical UI with LLM-powered medical advisory
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 Transfer learning was applied using three pretrained CNN backbones:
 
@@ -40,9 +40,9 @@ model_effnet.h5
 
 ---
 
-## ⚙️ Methodology Pipeline
+## Methodology Pipeline
 
-### 1️⃣ Data Processing
+### Data Processing
 
 - Dataset organized into class folders
 - ImageDataGenerator used for:
@@ -53,7 +53,7 @@ model_effnet.h5
 
 ---
 
-### 2️⃣ Model Training Summary
+### Model Training Summary
 
 | Model | Epochs | Final Training Accuracy | Best Validation Accuracy |
 |------|--------|--------------------------|----------------------------|
@@ -101,12 +101,9 @@ Two ensemble modes implemented:
 
 ---
 
-## 📈 Example Confusion Matrix (Ensemble)
+## Confusion Matrix (Ensemble)
 
-[[48, 1, 12, 3],
-[ 0, 64, 0, 0],
-[ 2, 1, 57, 4],
-[ 0, 0, 1, 65]]
+<img width="669" height="570" alt="image" src="https://github.com/user-attachments/assets/4a94ac07-b090-45d9-96dc-b1de7a50fa43" />
 
 
 Key observations:
@@ -140,6 +137,8 @@ The user provides:
 
 The UI:
 
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/6b984a91-01bb-4556-bc47-96cfa31359dd" />
+
 1. Loads patient directory
 2. Runs ensemble inference on both eye images
 3. Displays:
@@ -149,7 +148,7 @@ The UI:
 
 ---
 
-### 🤖 LLM-Powered Medical Advisory
+### LLM-Powered Medical Advisory
 
 The interface includes an interactive questionnaire module.
 
@@ -164,7 +163,7 @@ This transforms the system from a pure classifier into a **clinical decision-sup
 
 ---
 
-## 📊 Outputs Generated
+## Outputs Generated
 
 The pipeline produces:
 
@@ -181,22 +180,12 @@ All plots and detailed outputs are available in:
 
 ---
 
-## ⚠️ Observations & Limitations
+## Observations & Limitations
 
 - EfficientNet shows mild overfitting tendencies
 - ResNet requires further regularization tuning
 - Ensemble depends on reliable F1 weight estimation
 - Class imbalance affects Cataract vs Glaucoma separation
-
----
-
-## 🔮 Future Work
-
-- Larger cross-validated datasets
-- Explainable AI integration (Grad-CAM / SHAP)
-- Probability calibration
-- Meta-classifier fusion models
-- Telemedicine deployment
 
 ---
 
@@ -209,15 +198,3 @@ All plots and detailed outputs are available in:
 - Tkinter (GUI)
 - LLM API integration
 
----
-
-## 👨‍💻 Authors
-
-**Piyush Kumar Patro**  
-TARP Project Team
-
----
-
-## 📜 License
-
-For academic and research purposes only.
